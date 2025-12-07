@@ -1,9 +1,10 @@
+import IntroSection from "./IntroSection"
 
 function page() {
   return (
-    <div>
-      About
-    </div>
+    <>
+      <IntroSection/>
+    </>
   )
 }
 

@@ -9,7 +9,7 @@ export default function HomeHero() {
   const slides = [
     {
       id: 1,
-      heading: "Synclink Technologies ukko",
+      heading: "Synclink Technologies",
       shortDesc: "Your partner in IT & Software Solutions",
       fullDesc:
         "We provide full-stack development, consultancy, and modern technology solutions tailored to your business needs.",
