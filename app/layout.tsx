@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import SocialMedia from "@/components/SocialMedia"
 import "./globals.css";
 
 // Modern Fonts
@@ -34,6 +35,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Header />   {/* Header is client component */}
+        <SocialMedia />
         {children}
         <Footer />   {/* Footer can be client component */}
       </body>
