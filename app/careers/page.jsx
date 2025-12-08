@@ -1,10 +1,17 @@
 import React from 'react'
+import CareerIntro from './CareerIntro'
+import WhyCareer from './WhyCareer'
+import BenefitsSection from './BenefitsSection'
+import FunFactsSection from './FunFactsSection'
 
 function page() {
   return (
-    <div>
-      career
-    </div>
+    <>
+      <CareerIntro />
+      <WhyCareer />
+      <BenefitsSection />
+      <FunFactsSection />
+    </>
   )
 }
 

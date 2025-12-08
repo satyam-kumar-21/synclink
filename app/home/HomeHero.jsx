@@ -93,7 +93,7 @@ export default function HomeHero() {
         {slides.map((s, i) => (
           <BsCircleFill
             key={s.id}
-            size={currentSlide === i ? 8 : 6}
+            size={currentSlide === i ? 6 : 4}
             className={`cursor-pointer transition-all ${
               currentSlide === i ? "text-white" : "text-white/50"
             }`}
