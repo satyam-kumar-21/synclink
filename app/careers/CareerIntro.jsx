@@ -9,13 +9,13 @@ export default function CareerIntro() {
       {/* Left Text */}
       <div className="w-full md:w-1/2 flex flex-col justify-center text-left md:pr-8 space-y-3">
         <h2 className="text-3xl md:text-4xl font-bold leading-snug">
-          Let&apos;s work together.
+          Let&apos;s Collaborate..
         </h2>
         <p className="text-white text-base md:text-lg">
-          Build impactful software that drives growth and transforms ideas into reality.
+          Partner with us to engineer high-impact software that accelerates growth and turns complex concepts into market-ready reality.
         </p>
         <p className="text-white text-base md:text-lg">
-          Shipping digital products globally, every day!
+          We deliver world-class digital products to a global audience, every single day.
         </p>
       </div>
 

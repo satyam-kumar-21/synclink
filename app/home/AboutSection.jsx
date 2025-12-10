@@ -26,10 +26,9 @@ export default function AboutSection() {
 
           <p className="text-gray-600 mb-6 leading-relaxed">
             At <span className="font-semibold text-blue-700">Synclink Technologies</span>,
-            we focus on delivering modern, scalable, and innovative digital
-            solutions. We continuously upgrade our skills, follow latest tech
-            trends, and apply industry best practices to deliver cutting-edge
-            results that match every client&#39;s unique needs.
+            Synclink Technologies is a unified IT Service and HR Consulting firm dedicated to driving measurable
+             transformation for modern businesses. We bridge the gap between technological innovation and human capital,
+             offering a holistic approach that transcends the traditional vendor model.
           </p>
 
           {/* Vision */}
@@ -38,9 +37,9 @@ export default function AboutSection() {
               Vision
             </h4>
             <p className="text-gray-600 leading-relaxed">
-              Our vision is to become a global leader in advanced technology
-              solutions that empower businesses, solve real-world challenges,
-              and improve people&#39;s lives with digital innovation.
+              At Synclink Technologies, we don't just build technology; we build partnerships.
+               Our vision is to be the catalyst for your digital success, transforming complex challenges into innovative, scalable, and resilient technology solutions. We believe that exceptional 
+              IT services are the foundation upon which future-proof businesses are built.
             </p>
           </div>
 
@@ -50,9 +49,10 @@ export default function AboutSection() {
               Mission
             </h4>
             <p className="text-gray-600 leading-relaxed">
-              Our mission is to empower businesses through innovative, scalable,
-              and smart digital solutions that streamline operations, enhance
-              productivity, and drive long-term growth.
+             To empower global enterprises by seamlessly integrating advanced IT 
+             solutions with strategic human capital optimization. We are dedicated to converting 
+             complex operational challenges into measurable growth, 
+             ensuring our clients achieve both technological resilience and workforce excellence.
             </p>
           </div>
         </motion.div>
