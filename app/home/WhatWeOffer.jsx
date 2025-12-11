@@ -4,44 +4,80 @@ import React from "react";
 import { motion } from "framer-motion";
 import {
   FaReact,
-  FaNodeJs,
   FaCloud,
+  FaDatabase,
+  FaCog,
+  FaLaptopCode,
   FaMobileAlt,
-  FaProjectDiagram,
-  FaBitcoin,
+  FaJava,
+  FaPython,
+  FaPalette,
+  FaShieldAlt,
+  FaUsersCog,
+  FaHandshake,
 } from "react-icons/fa";
 
 export default function WhatWeOffer() {
   const services = [
     {
       icon: <FaReact size={40} className="text-blue-600" />,
-      title: "Business Solution",
-      desc: "Collaboratively reintermediate holistic markets restore strategic sources the world.",
+      title: "Business Intelligence",
+      desc: "Transform raw data into actionable insights with interactive dashboards that drive smarter strategic decisions.",
     },
     {
       icon: <FaCloud size={40} className="text-blue-600" />,
-      title: "Managed Cloud Services",
-      desc: "Develop scalable and resilient software products that maximize cloud efficiency and reduce your IT cost.",
+      title: "Microsoft Fabric",
+      desc: "Centralize your entire data estate with a unified analytics solution designed for the AI era.",
     },
     {
-      icon: <FaNodeJs size={40} className="text-blue-600" />,
-      title: "FinTech Solutions",
-      desc: "Keep your software in line with latest technology, feature, and performance standards.",
+      icon: <FaCog size={40} className="text-blue-600" />,
+      title: "Data Engineering",
+      desc: "Architect robust data pipelines that ensure your information is accurate, accessible, and ready for analysis.",
     },
     {
-      icon: <FaProjectDiagram size={40} className="text-blue-600" />,
-      title: "IT Consulting",
-      desc: "Helping organizations design and deliver innovative software solutions with speed and scale.",
+      icon: <FaDatabase size={40} className="text-blue-600" />,
+      title: "Database Development",
+      desc: "Design and deploy secure, high-performance database architectures tailored to your specific operational needs.",
     },
     {
-      icon: <FaBitcoin size={40} className="text-blue-600" />,
-      title: "Blockchain Technologies",
-      desc: "Secure your network with advanced decentralized blockchain technology.",
+      icon: <FaLaptopCode size={40} className="text-blue-600" />,
+      title: "Full Stack Development",
+      desc: "Deliver comprehensive, end-to-end web solutions built on modern frameworks for seamless scalability.",
     },
     {
       icon: <FaMobileAlt size={40} className="text-blue-600" />,
-      title: "Mobile & Web App Development",
-      desc: "Robust and scalable development services for better user experience across various platforms.",
+      title: "Mobile Application Development",
+      desc: "Create intuitive, high-performance mobile experiences optimized for both iOS and Android platforms.",
+    },
+    {
+      icon: <FaJava size={40} className="text-blue-600" />,
+      title: "Java Development",
+      desc: "Build stable, secure, and scalable enterprise-grade applications with robust cross-platform capabilities.",
+    },
+    {
+      icon: <FaPython size={40} className="text-blue-600" />,
+      title: "Python Development",
+      desc: "Leverage versatile coding for advanced backend logic, process automation, and machine learning solutions.",
+    },
+    {
+      icon: <FaPalette size={40} className="text-blue-600" />,
+      title: "UI/UX Design",
+      desc: "Craft user-centric interfaces that blend stunning aesthetics with intuitive functionality to drive engagement.",
+    },
+    {
+      icon: <FaShieldAlt size={40} className="text-blue-600" />,
+      title: "Cybersecurity",
+      desc: "Safeguard your digital assets with rigorous security protocols and proactive threat defense mechanisms.",
+    },
+    {
+      icon: <FaUsersCog size={40} className="text-blue-600" />,
+      title: "HR Consulting",
+      desc: "Optimize your human capital through strategic talent acquisition, workforce planning, and organizational development.",
+    },
+    {
+      icon: <FaHandshake size={40} className="text-blue-600" />,
+      title: "B2B Services",
+      desc: "Drive growth with tailored consulting and partnership models designed for seamless business-to-business integration.",
     },
   ];
 

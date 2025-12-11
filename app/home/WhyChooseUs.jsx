@@ -15,32 +15,32 @@ export default function WhyChooseUs() {
   const features = [
     {
       icon: <FaUserShield size={35} className="text-blue-600" />,
-      title: "Assured Services",
-      desc: "We consistently strive to exceed our clients’ expectations with unmatched professionalism and quality.",
+      title: "Service Excellence",
+      desc: "We are committed to surpassing client standards by delivering superior quality and maintaining the highest level of professional integrity.",
       img: "/services/assured.png",
     },
     {
       icon: <FaGlobe size={35} className="text-blue-600" />,
-      title: "Worldwide Remote Connectivity",
-      desc: "We can connect and work remotely with clients across the globe — anytime, anywhere.",
+      title: "Global Accessibility",
+      desc: "Our infrastructure enables seamless remote collaboration, allowing us to serve clients worldwide, regardless of time zone or location.",
       img: "/services/connectivity.png",
     },
     {
       icon: <FaCogs size={35} className="text-blue-600" />,
-      title: "It's all about technology",
-      desc: "24×7 expert technical support to keep your business running smoothly.",
+      title: "24/7 Technical Assurance",
+      desc: "Our expert support team is available around the clock to ensure your business operations maintain continuous uptime and efficiency.",
       img: "/services/technology.png",
     },
     {
       icon: <FaLightbulb size={35} className="text-blue-600" />,
-      title: "Creative Ideas with Passion",
-      desc: "We bring fresh and innovative ideas to the table every time with top-tier expertise.",
+      title: "Innovative Expertise",
+      desc: "We approach every challenge with passion and creativity, leveraging top-tier skills to deliver fresh, forward-thinking solutions.",
       img: "/services/idea.png",
     },
     {
       icon: <FaClock size={35} className="text-blue-600" />,
-      title: "On-time Every Time",
-      desc: "We deliver high-quality work without compromise — always within deadlines.",
+      title: "Reliable Timelines",
+      desc: "We prioritize punctuality, ensuring high-quality deliverables are completed strictly within agreed deadlines—no exceptions.",
       img: "/services/time.png",
     },
   ];
@@ -60,11 +60,11 @@ export default function WhyChooseUs() {
             WE ARE DIFFERENT
           </h4>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-            Why Choose Us
+            Why Join Us
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed">
-            Our team takes a balanced, customized approach to each project —
-            from discovery all the way to launch and beyond.
+            At Synclink Technologies, we cultivate a culture where innovation directly impacts lives. We are seeking visionaries eager to contribute to a shared future. We champion an environment defined by transparency, collaboration, and equal opportunity. As we continue to expand,
+             we are searching for dynamic talent ready to grow with us—elevating not just our company benchmarks, but your own professional standards.
           </p>
 
           {/* FEATURES LIST */}
