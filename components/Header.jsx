@@ -30,7 +30,7 @@ function Header() {
                               <nav className="hidden md:flex items-center gap-10">
                                     <Link href="/about" className="text-gray-700 hover:text-blue-500">About Us</Link>
                                     <Link href="/careers" className="text-gray-700 hover:text-blue-500">Careers</Link>
-                                    <Link href="/team" className="text-gray-700 hover:text-blue-500">Our Team</Link>
+                                    {/* <Link href="/team" className="text-gray-700 hover:text-blue-500">Our Team</Link> */}
                                     <Link href="/technology" className="text-gray-700 hover:text-blue-500">Technologies</Link>
 
                                     <Link
@@ -57,7 +57,7 @@ function Header() {
                               <div className="md:hidden bg-white shadow-md w-full px-6 py-4 absolute top-full left-0">
                                     <Link href="/about" className="block py-2 text-gray-700 hover:text-blue-500">About Us</Link>
                                     <Link href="/careers" className="block py-2 text-gray-700 hover:text-blue-500">Careers</Link>
-                                    <Link href="/team" className="block py-2 text-gray-700 hover:text-blue-500">Our Team</Link>
+                                    {/* <Link href="/team" className="block py-2 text-gray-700 hover:text-blue-500">Our Team</Link> */}
                                     <Link href="/technology" className="block py-2 text-gray-700 hover:text-blue-500">Technology</Link>
                                     <Link
                                           href="/contact"
