@@ -1,10 +1,11 @@
 import React from 'react'
+import ContactUs from './ContactUs'
 
 function page() {
   return (
-    <div>
-      <h1>Contact page</h1>
-    </div>
+    <>
+      <ContactUs />
+    </>
   )
 }
 

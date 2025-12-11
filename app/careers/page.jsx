@@ -3,6 +3,7 @@ import CareerIntro from './CareerIntro'
 import WhyCareer from './WhyCareer'
 import BenefitsSection from './BenefitsSection'
 import FunFactsSection from './FunFactsSection'
+import CurrentOpening from './CurrentOpening'
 
 function page() {
   return (
@@ -11,6 +12,7 @@ function page() {
       <WhyCareer />
       <BenefitsSection />
       <FunFactsSection />
+      <CurrentOpening />
     </>
   )
 }
