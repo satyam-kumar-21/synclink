@@ -10,7 +10,7 @@ function page() {
       <IntroSection/>
       <WhoWeAre/>
       <OurStrategy />
-      <OurHistory/>
+      {/* <OurHistory/> */}
       <JoinUs />
     </>
   )

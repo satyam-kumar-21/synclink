@@ -8,7 +8,7 @@ export default function SocialMedia() {
 
       {/* WhatsApp */}
       <a
-        href="https://wa.me/917489682644"
+        href="https://wa.me/918077145291"
         target="_blank"
         rel="noopener noreferrer"
         className="w-14 h-14 rounded-full bg-white shadow-xl flex items-center justify-center animate-pulse"
@@ -18,7 +18,7 @@ export default function SocialMedia() {
 
       {/* Call */}
       <a
-        href="tel:+917489682644"
+        href="tel:+918077145291"
         className="w-14 h-14 rounded-full bg-white shadow-xl flex items-center justify-center animate-pulse"
       >
         <FaPhoneAlt className="w-7 h-7 text-blue-600" />

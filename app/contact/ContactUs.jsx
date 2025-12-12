@@ -30,7 +30,7 @@ export default function ContactUs() {
               <FaPhoneAlt size={24} className="text-blue-600" />
               <div>
                 <h3 className="text-sm font-semibold">Phone</h3>
-                <p className="text-sm text-gray-600">+91 98765 43210</p>
+                <p className="text-sm text-gray-600">+91 80771 45291</p>
               </div>
             </div>
 
@@ -47,7 +47,7 @@ export default function ContactUs() {
               <div>
                 <h3 className="text-sm font-semibold">Address</h3>
                 <p className="text-sm text-gray-600">
-                  21 Business Street, Sector 10, Noida, India
+                  U1001 - Eco City , Sector - 137 , Noida, India
                 </p>
               </div>
             </div>

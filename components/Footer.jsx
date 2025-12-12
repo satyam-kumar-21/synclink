@@ -11,8 +11,8 @@ function Footer() {
         {/* Left Section */}
         <div className="flex-1 pr-0 md:pr-6 border-r md:border-white/30">
           <h2 className="text-2xl font-semibold mb-4">Synclink Technologies</h2>
-          <p className="mb-2">📍 123 Tech Park, Noida, India</p>
-          <p className="mb-2">📞 +91 98765 43210</p>
+          <p className="mb-2">📍 U1001 - Eco City , Sector - 137 , Noida</p>
+          <p className="mb-2">📞 +91 80771 45291</p>
           <p className="mb-2">📧 info@synclinktech.com</p>
         </div>
 
@@ -50,10 +50,10 @@ function Footer() {
             <a href="https://www.facebook.com/synclinktech" target="_blank" rel="noopener noreferrer">
               <FaFacebook className="hover:text-gray-300 cursor-pointer" />
             </a>
-            <a href="https://www.instagram.com/synclinktech" target="_blank" rel="noopener noreferrer">
+            <a href=" https://www.instagram.com/synclinktechnologies?igsh=cGx3Y3k0ZDF1cGRk&utm_source=qr" target="_blank" rel="noopener noreferrer">
               <FaInstagram className="hover:text-gray-300 cursor-pointer" />
             </a>
-            <a href="https://www.linkedin.com/company/synclinktech" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/company/synclinktechnologies/?viewAsMember=true" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="hover:text-gray-300 cursor-pointer" />
             </a>
             <a href="https://twitter.com/synclinktech" target="_blank" rel="noopener noreferrer">

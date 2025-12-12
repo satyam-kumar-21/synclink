@@ -4,14 +4,13 @@ import React from "react";
 import Image from "next/image";
 
 const funFactsData = [
-  "We encourage community events.",
-  "We are always up for celebration.",
-  "We learn, experiment and grow together.",
-  "We create & cherish endless memories.",
-  "We dance, smile and celebrate together.",
-  "We are pro Counter Strike lovers.",
-  "We are playful and happening.",
-  "We are on for rafting and adventures.",
+  "Community Focused: We actively organize and encourage community events.",
+  "Culture of Celebration: We take every opportunity to celebrate our milestones together.",
+  "Collaborative Growth: We learn, experiment, and evolve as a team.",
+  "Lasting Memories: We are dedicated to creating shared experiences that last a lifetime.",
+  "Gaming Enthusiasts: We have a serious passion for Counter-Strike.",
+  "Adventure Seekers: From rafting to outdoor excursions, we love a good adventure.",
+
 ];
 
 export default function FunFactsSection() {
@@ -32,8 +31,7 @@ export default function FunFactsSection() {
         {/* Left Text */}
         <div className="w-full md:w-1/2 flex flex-col space-y-4">
           <p className="text-gray-700 text-base md:text-lg">
-            At Synclink Technologies, we believe that professional growth shouldn&apos;t come at the expense of an enjoyable journey. That&apos;s why we offer a dynamic experience full of opportunities for learning, growth, and fun.
-          </p>
+           At Synclink, we believe career advancement and personal enjoyment should go hand in hand. We foster a dynamic environment that balances professional development with a vibrant, fun-filled culture.           </p>
           <ul className="list-disc list-inside text-gray-700 space-y-2">
             {funFactsData.map((fact, index) => (
               <li key={index}>{fact}</li>
